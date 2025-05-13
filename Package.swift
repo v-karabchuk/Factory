@@ -29,7 +29,7 @@ let package = Package(
         .target(
             name: "FactoryKit",
             dependencies: [],
-            resources: [.copy("PrivacyInfo.xcprivacy")],
+            resources: [.copy("PrivacyInfo.xcprivacy")]
 //            swiftSettings: [
 //                // Emulate BUILD_LIBRARY_FOR_DISTRIBUTION to prevent culling of ABI used by
 //                // compiled frameworks.
